@@ -1,6 +1,6 @@
 # Stage 3 — Volumes & Networking
 ---
-## `Part A - Volumes: Making Data Survive `
+## Part A - Volumes: Making Data Survive 
 
 We know that the container's writable layer is ephemeral. The moment you docker rm a container, everything it wrote to disk is gone. 
 For a stateless API that's fine. But what about a database? What about user-uploaded files? 
